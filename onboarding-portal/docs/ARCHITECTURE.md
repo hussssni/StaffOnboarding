@@ -1,4 +1,4 @@
-# Architecture Notes — Munk Onboarding Portal
+# Architecture Notes — Staff Onboarding Portal
 
 ## Pattern: MVC via Laravel
 

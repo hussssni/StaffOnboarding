@@ -1,4 +1,4 @@
-# How the Munk Staff Onboarding Portal Works
+# How the Staff Onboarding Portal Works
 
 **A Plain-English + Simple-Technical Guide**
 *Written so anyone — from a hiring manager to a junior dev — can understand exactly what we built and why.*
@@ -28,7 +28,7 @@
 
 ### Plain English
 
-Imagine a new employee starts at the Munk School. HR needs to track them — have they got their ID card? Did they set up their email? Did they attend orientation? Right now, that might all live in a spreadsheet, a shared drive, or someone's memory.
+Imagine a new employee starts at the school. HR needs to track them — have they got their ID card? Did they set up their email? Did they attend orientation? Right now, that might all live in a spreadsheet, a shared drive, or someone's memory.
 
 This app replaces that mess. It's a private website — visible only inside the organization — where:
 - **HR/Admin staff** can add new hires, see everyone's progress, and tick off checklist items.
@@ -187,7 +187,7 @@ Before this portal existed, staff data was probably kept in a spreadsheet or som
 
 After the import runs, the Admin sees a summary: "5 inserted, 2 updated, 1 skipped." Every row's result is saved so there's a record of what happened.
 
-This is the most important feature for the Munk School interview — it directly mirrors their stated need to migrate legacy staff data.
+This is the most important feature — it directly mirrors a common real-world need to migrate legacy staff data.
 
 ### Simply Technical
 
@@ -505,4 +505,4 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong@Passw0rd" \
 
 ---
 
-*HOW_IT_WORKS.md · Munk Portal Explanation Guide · Syed Rayyan Hussain · March 2026*
+*HOW_IT_WORKS.md · Staff Onboarding Portal · Syed Rayyan Hussain · March 2026*

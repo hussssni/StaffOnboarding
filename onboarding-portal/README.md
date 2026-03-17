@@ -1,6 +1,6 @@
-# Munk School Staff Onboarding Portal
+# Staff Onboarding Portal
 
-A staff onboarding management system built with **PHP 8 + Laravel 11**, **Microsoft SQL Server**, and **Apache**. Built as a portfolio demo of the exact stack used by the University of Toronto's Munk School of Global Affairs.
+A staff onboarding management system built with **PHP 8 + Laravel 11**, **Microsoft SQL Server**, and **Apache**.
 
 ---
 
@@ -32,7 +32,7 @@ apache2ctl -M | grep rewrite  # mod_rewrite enabled
 
 ```bash
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong@Passw0rd" \
-  -p 1433:1433 --name munk-sql \
+  -p 1433:1433 --name onboarding-sql \
   -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 

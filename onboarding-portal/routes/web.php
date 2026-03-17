@@ -12,6 +12,9 @@ use App\Http\Controllers\Staff\StaffDashboardController;
 // ---------------------------------------------------------
 // Public routes — no login required
 // ---------------------------------------------------------
+
+Route::get('/', [LoginController::class, 'showForm']);
+
 Route::get('/login', [LoginController::class, 'showForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);
 
@@ -31,6 +34,8 @@ Route::middleware('auth')->post('/logout', [LoginController::class, 'logout'])->
 // inside each controller method
 // ---------------------------------------------------------
 Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
+    
+    
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     // Staff CRUD
