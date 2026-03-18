@@ -5,7 +5,8 @@
 @section('content')
 <h2 class="mb-1">Audit Log</h2>
 <p class="text-muted mb-4">
-    Every create, update, and delete on staff records is recorded here. This log is permanent — entries cannot be edited or deleted.
+    Every create, update, and delete on staff records is recorded here. 
+    NOTE: This log is permanent, so entries cannot be edited or deleted.
 </p>
 
 <div class="card shadow-sm">

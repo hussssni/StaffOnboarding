@@ -12,6 +12,10 @@ class AuditLog extends Model
     // audit_log is append-only — only created_at, no updated_at
     public $timestamps = false;
 
+    protected $casts = [
+        'created_at' => 'datetime',
+    ];
+
     protected $fillable = [
         'user_id',
         'action',        // created | updated | deleted
